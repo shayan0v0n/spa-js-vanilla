@@ -1,12 +1,20 @@
+@font-face {
+    font-family: "vazir";
+    src: url('./fonts/Vazir-Regular-FD.woff');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "vazir";
 }
 
 body {
     font-family: 'Courier New', Courier, monospace;
     direction: rtl;
+    background-color: #181a1b;
+    color: #fff;
 }
 
 .container {
@@ -31,8 +39,8 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    background-color: #eeeeee;
-    color: #616161;
+    background-color: #222426;
+    color: #fff;
     border-radius: 100px;
     padding: .3rem 2rem;
 }
@@ -40,8 +48,4 @@ body {
 #app {
     padding: 3.5rem 3rem;
     line-height: 1.7rem;
-}
-
-#app p {
-    color: #212121;
 }
